@@ -1,0 +1,129 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container > div {
+    background-color: #241126;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.insights {
+    grid-area: insights;
+}
+
+.achievements {
+    grid-area: achievements;
+}
+
+.rank {
+    grid-area: rank;
+}
+
+.tracks {
+    grid-area: tracks;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'insights insights rank'
+    'achievements achievements rank'
+    'tracks tracks tracks';
+    grid-gap: 30px;
+    padding: 30px;
+    background-color:#130A16 ;
+}
+
+
+.time {
+    grid-area: time;
+}
+
+.contests {
+    grid-area: contests;
+}
+
+.won {
+    grid-area: won;
+}
+
+.insight-cont {
+    display: grid;
+    grid-template-areas: 
+    'time contests won';
+    grid-gap: 5px;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+h1 {
+    background-color: #1A0D1D;
+    padding-top: 0pt;
+    text-align: left;
+    color: white;
+}
+
+.beginner {
+    grid-area: beginner;
+}
+
+.learner {
+    grid-area: learner;
+}
+
+.won-contest {
+    grid-area: wonContest;
+}
+
+.enthusiast-a {
+    grid-area: enthusiastA;
+}
+
+.dedicated {
+    grid-area: dedicated;
+}
+
+.completed-tracks {
+    grid-area: completedTracks;
+}
+
+.ach-cont {
+    display: grid;
+    grid-template-areas: 
+    'beginner learner wonContest enthusiastA dedicated completedTracks';
+    grid-gap: 5px;
+    justify-content: space-evenly;
+}
+
+.rank {
+    text-align: center;
+}
+
+.cpp {
+    grid-area: cpp
+}
+
+.python {
+    grid-area: python;
+}
+
+.ds {
+    grid-area: ds;
+}
+
+.empty {
+    grid-area: empty;
+}
+
+.submit {
+    grid-area: submit;
+}
+
+.tracks-cont {
+    display: grid;
+    grid-template-areas:
+    'cpp python ds empty submit';
+    justify-content: space-evenly;
+    grid-gap: 5px;
+}

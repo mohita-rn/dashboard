@@ -1,0 +1,210 @@
+/*app.css*/
+.about{
+    float: left;
+}
+
+.main {
+    float: right;
+}
+
+/*dashboard.css*/
+* {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    background : #070707;
+    height: 103px;
+}
+
+img {
+    display: block;
+    width: 100%;
+  }
+
+
+/*user.css*/
+* {
+    box-sizing: border-box;
+  }
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:0px 1200px 0px 0px;
+    border: 2px solid black;
+     
+}
+
+.profileCard {
+    align-self:  center;
+}
+
+.navBar{
+    align-self: center;
+}
+
+.leaderboard{
+    align-self: center;
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 10px;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+img {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}
+
+/*stats.css*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.gridContainer > div {
+    background-color: #241126;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.insights {
+    grid-area: insights;
+}
+
+.achievements {
+    grid-area: achievements;
+}
+
+.rank {
+    grid-area: rank;
+}
+
+.tracks {
+    grid-area: tracks;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas: 
+    'insights insights rank'
+    'achievements achievements rank'
+    'tracks tracks tracks';
+    grid-gap: 30px;
+    padding: 30px;
+    background-color:#130A16 ;
+}
+
+
+.time {
+    grid-area: time;
+}
+
+.contests {
+    grid-area: contests;
+}
+
+.won {
+    grid-area: won;
+}
+
+.insightCont {
+    display: grid;
+    grid-template-areas: 
+    'time contests won';
+    grid-gap: 5px;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+h1 {
+    background-color: #1A0D1D;
+    padding-top: 0pt;
+    text-align: left;
+    color: white;
+}
+
+.beginner {
+    grid-area: beginner;
+}
+
+.learner {
+    grid-area: learner;
+}
+
+.wonContest {
+    grid-area: wonContest;
+}
+
+.enthusiastA {
+    grid-area: enthusiastA;
+}
+
+.dedicated {
+    grid-area: dedicated;
+}
+
+.completedTracks {
+    grid-area: completedTracks;
+}
+
+.achCont {
+    display: grid;
+    grid-template-areas: 
+    'beginner learner wonContest enthusiastA dedicated completedTracks';
+    grid-gap: 5px;
+    justify-content: space-evenly;
+}
+
+.rank {
+    text-align: center;
+}
+
+.cpp {
+    grid-area: cpp
+}
+
+.python {
+    grid-area: python;
+}
+
+.ds {
+    grid-area: ds;
+}
+
+.empty {
+    grid-area: empty;
+}
+
+.submit {
+    grid-area: submit;
+}
+
+.tracksCont {
+    display: grid;
+    grid-template-areas:
+    'cpp python ds empty submit';
+    justify-content: space-evenly;
+    grid-gap: 5px;
+}

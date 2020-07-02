@@ -1,0 +1,8 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    display: flex;  
+    flex-flow: row wrap;
+}

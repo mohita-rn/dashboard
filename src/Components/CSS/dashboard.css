@@ -1,0 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.flex-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    /* z-index: 10; */
+    background : #070707;
+    height: 103px;
+    width: 100%;
+    /* flex: 0 0 auto; */
+
+}
+
+.asynamite {
+    display: block;
+    width: 300px;
+    height: 80px;
+    padding: 10px 10px;
+  }
+
+.btnn {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    background-color: #070707;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+}
+
+
+
